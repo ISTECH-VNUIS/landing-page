@@ -1,0 +1,1511 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+/* Base styles */
+body {
+    font-family: "Space Grotesk", serif;
+}
+
+.content {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    height: 771px;
+    gap: 70px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 68px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    width: auto;
+    height: 68px;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.nav-links > li > a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #191A23;
+}
+
+.nav-links > button {
+    border-radius: 14px;
+    gap: 10px;
+    border-color: #191A23;
+    background-color: white;
+    font-size: 20px;
+    padding: 20px 35px;
+    color: #191A23;
+    cursor: pointer;
+    font-family: "Space Grotesk", serif;
+}
+
+html body div.content div.landing-page nav div.frame10 ul.sidebar li{
+    list-style: none;
+}
+
+html body div.content div.landing-page nav div.frame10 ul.sidebar li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: #B9FF66;
+    border-radius: 14px;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px;
+    padding: 20px 40px;
+    font-size: 30px;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+html body div.content div.landing-page nav div.frame10 ul.nav-links li a span.material-symbols-outlined{
+    display: none;
+}
+
+html body div.content div.landing-page nav div.frame10 ul.sidebar button{
+    border-radius: 14px;
+    gap: 10px;
+    border-color: #191A23;
+    background-color: white;
+    font-size: 20px;
+    padding: 20px 35px;
+    color: #191A23;
+    cursor: pointer;
+    font-family: "Space Grotesk", serif;
+}
+
+.header {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.frame13 {
+    width: 531px;
+    height: 481px;
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.frame13 > h1 {
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.frame13 > p {
+    font-size: 20px;
+    width: 498px;
+    height: 112px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.ilu {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.frame13 > button {
+    width: 264px;
+    height: 68px;
+    font-size: 20px;
+    background-color: #191A23;
+    border-radius: 14px;
+    color: white;
+    cursor: pointer;
+    font-family: "Space Grotesk", serif;
+}
+
+.logotypes {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 50px;
+    mix-blend-mode: luminosity;
+}
+
+.mark {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.mark > h2 {
+    height: 51px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding: 0 7px;
+    background-color: #B9FF66;
+    font-size: 40px;
+    border-radius: 7px;
+}
+
+.mark > p {
+    height: 51px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    width: 580px;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 70px;
+    row-gap: 40px;
+}
+
+.box {
+    width: 598px;
+    height: 308px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #191A23;
+    border-radius: 45px;
+    box-shadow: 0 5px 0 0 #191A23;
+}
+
+html body div.content div.casestudy div.table p button.learn-more {
+    color: #B9FF66;
+    font-family: "Space Grotesk", serif;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+html body div.content div.services div.boxes div.box div button.learn-more img{
+    margin-right: 0px ;
+}
+
+html body div.content div.services div.boxes div.box img {
+    justify-content: center;
+    align-self: center;
+    margin-right: 50px;
+}
+
+.box div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 221px;
+    height: 210px;
+    margin-left: 50px;
+}
+
+.box div h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+
+div.box:nth-child(1) > div:nth-child(1) > h3:nth-child(1),
+div.box:nth-child(1) > div:nth-child(1) > h3:nth-child(2),
+div.box:nth-child(4) > div:nth-child(1) > h3:nth-child(1),
+div.box:nth-child(4) > div:nth-child(1) > h3:nth-child(2),
+div.box:nth-child(6) > div:nth-child(1) > h3:nth-child(1),
+div.box:nth-child(6) > div:nth-child(1) > h3:nth-child(2) {
+    background-color: #B9FF66;
+    border-radius: 7px;
+}
+
+div.box:nth-child(2) > div:nth-child(1) > h3:nth-child(1),
+div.box:nth-child(2) > div:nth-child(1) > h3:nth-child(2),
+div.box:nth-child(3) > div:nth-child(1) > h3:nth-child(1),
+div.box:nth-child(3) > div:nth-child(1) > h3:nth-child(2),
+div.box:nth-child(5) > div:nth-child(1) > h3:nth-child(1),
+div.box:nth-child(5) > div:nth-child(1) > h3:nth-child(2) {
+    background-color: #FFFFFF;
+    border-radius: 7px;
+}
+
+.box div button {
+    align-self: flex-start;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 164px;
+    height: 41px;
+    padding: 0;
+}
+
+div.box:nth-child(1) > div:nth-child(1) > button:nth-child(3),
+div.box:nth-child(4) > div:nth-child(1) > button:nth-child(3) {
+    border: none;
+    background-color: #F3F3F3;
+}
+
+div.box:nth-child(2) > div:nth-child(1) > button:nth-child(3),
+div.box:nth-child(5) > div:nth-child(1) > button:nth-child(3) {
+    border: none;
+    background-color: #B9FF66;
+}
+
+div.box:nth-child(3) > div:nth-child(1) > button:nth-child(3),
+div.box:nth-child(6) > div:nth-child(1) > button:nth-child(3) {
+    border: none;
+    background-color: #191A23;
+    color: white;
+}
+
+div.box:nth-child(1) {
+    background-color: #F3F3F3;
+    margin-left: 100px;
+}
+
+div.box:nth-child(2) {
+    background-color: #B9FF66;
+    margin-right: 100px;
+}
+
+div.box:nth-child(3) {
+    background-color: #191A23;
+    margin-left: 100px;
+}
+
+div.box:nth-child(4) {
+    background-color: #F3F3F3;
+    margin-right: 100px;
+}
+
+div.box:nth-child(5) {
+    background-color: #B9FF66;
+    margin-left: 100px;
+}
+
+div.box:nth-child(6) {
+    background-color: #191A23;
+    margin-right: 100px;
+}
+
+.ctablock {
+    width: 1240px;
+    height: 347px;
+    background-color: #F3F3F3;
+    margin: 100px auto;
+    border-radius: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ctablock > div:nth-child(1) {
+    width: 500px;
+    height: 227px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.ctablock > div:nth-child(1) > h3:nth-child(1) {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 38.28px;
+}
+
+.ctablock > div:nth-child(1) > p:nth-child(2) {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.ctablock > div:nth-child(1) > button:nth-child(3) {
+    width: 288px;
+    height: 68px;
+    font-size: 20px;
+    background-color: #191A23;
+    color: white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.mark2 {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.mark2 > h2 {
+    height: 51px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding: 0 7px;
+    background-color: #B9FF66;
+    font-size: 40px;
+    border-radius: 7px;
+}
+
+.mark2 > p {
+    height: 51px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    width: 580px;
+}
+
+html body div.content div.casestudy div.table {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 85px;
+    width: 1234px;
+    height: 326px;
+    border-radius: 45px;
+    background-color: #191A23;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table > p {
+    width: 286px;
+    padding: 0px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Space Grotesk", serif;
+    font-size: 18px;
+}
+
+
+.table > p:not(:last-child) {
+    border-right: 1px solid #FFFFFF;
+}
+
+.table p .learn-more {
+    font-family: "Space Grotesk", serif;
+    justify-content: flex-start;
+    align-self: flex-start;
+    border: none;
+    background-color: #191A23;
+    color: white;
+    cursor: pointer;
+}
+
+.mark3 {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.mark3 > h2 {
+    height: 51px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding: 0 7px;
+    background-color: #B9FF66;
+    font-size: 40px;
+    border-radius: 7px;
+}
+
+.mark3 > p {
+    height: 46px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    width: 292px;
+}
+
+.contenttab {
+    padding: 80px 100px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.parent-tab {
+    display: flex;
+    flex-direction: column;
+    min-height: 159px;
+    border: 1px solid #191A23;
+    border-radius: 45px;
+    box-shadow: 0 5px 0 0 #191A23;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 30px;
+    transition: background-color 0.3s ease, min-height 0.3s ease;
+    position: relative;
+}
+
+.parent-tab.active {
+    background-color: #B9FF66;
+    min-height: 279px;
+}
+
+.child-tab {
+    width: 1114px;
+    max-height: 0px;
+    font-size: 18px;
+    font-family: "Space Grotesk", serif;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.child-tab p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.parent-tab.active .child-tab {
+    max-height: 300px;
+}
+
+.parent-tab .tab {
+    justify-content: space-between;
+    width: 1117px;
+    height: 77px;
+    display: flex;
+    align-items: center;
+}
+
+.parent-tab .tab .tab-child {
+    width: 702px;
+    height: 77px;
+    display: flex;
+    gap: 25px;
+    font-weight: 500;
+    line-height: 38.28px;
+}
+
+.parent-tab .tab .tab-child h1 {
+    font-size: 60px;
+    font-family: "Space Grotesk", serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.parent-tab .tab .tab-child h3 {
+    font-size: 30px;
+    font-family: "Space Grotesk", serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.parent-tab .tab .line {
+    border: 1px;
+    border-color: black;
+    width: 1114px;
+}
+
+.parent-tab .img {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.parent-tab .img img {
+    width: 58px;
+    height: 58px;
+    margin-left: 10px;
+}
+
+.parent-tab img.showmore {
+    z-index: 1;
+}
+
+.parent-tab img.showless {
+    z-index: 0;
+    display: none;
+}
+
+.parent-tab.active img.showmore {
+    display: none;
+}
+
+.parent-tab.active img.showless {
+    display: block;
+}
+
+.mark4 {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.mark4 > h2 {
+    height: 51px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding: 0 7px;
+    background-color: #B9FF66;
+    font-size: 40px;
+    border-radius: 7px;
+}
+
+.mark4 > p {
+    height: 46px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    width: 473px;
+}
+
+.mark5 {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.mark5 > h2 {
+    height: 51px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding: 0 7px;
+    background-color: #B9FF66;
+    font-size: 40px;
+    border-radius: 7px;
+}
+
+.mark5 > p {
+    height: 46px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    width: 473px;
+}
+
+.teammembers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 70px;
+    row-gap: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.teammembers .member {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #191A23;
+    border-radius: 45px;
+    box-shadow: 0 5px 0 0 #191A23;
+    width: 387px;
+    height: 331px;
+}
+
+.teammembers .member .insidemember{
+    height: 250px;
+    width: 317px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.teammembers .member .insidemember .head .img1{
+    width: 102px;
+    height: 102px;
+}
+
+.teammembers .member .insidemember .head .img2{
+    cursor: pointer;
+    width: 34px;
+    height: 34px;
+}
+
+html body div.content div.team div.teammembers div.member div.insidemember div.head div.text h4{
+    font-size: 20px;
+}
+
+html body div.content div.team div.teammembers div.member div.insidemember div.head div.text p{
+    font-size: 18px;
+}
+
+html body div.content div.team div.teammembers div.member div.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.carousel-container {
+    padding-top: 80px;
+    width: 100%; /* Make the container take full width */
+    width: 1240px; /* Set a maximum width */
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.carousel {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center; /* Center the carousel items horizontally */
+    align-items: center;
+    transition: transform 0.5s ease;
+}
+
+.testimonial {
+    width: 606px;
+    height: 335px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    margin: 0 10px;
+    background-color: black;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.testimonial h3 {
+    margin-bottom: 10px;
+    color: #B9FF66;
+    font-size: 1.4em;
+}
+
+.testimonial p {
+    font-size: 1em;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.testimonial h2{
+    font-size: 1.4em;
+    color: #fff;
+}
+
+.nav-button {
+    position: absolute;
+    top: 80%;
+    transform: translateY(-50%);
+    background-color: #B9FF66;
+    border: none;
+    font-size: 24px;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.nav-button:hover {
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.prev {
+    left: 20px;
+}
+
+.next {
+    right: 20px;
+}
+
+.mark6 {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.mark6 > h2 {
+    height: 51px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding: 0 7px;
+    background-color: #B9FF66;
+    font-size: 40px;
+    border-radius: 7px;
+}
+
+.mark6 > p {
+    height: 46px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    width: 323px;
+}
+
+.contactus-child {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 60px 100px 80px 100px;
+    width: 1240px;
+    height: 773px;
+    background-color: #F3F3F3;
+    border-radius: 45px;
+}
+
+.contactus-child .child1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0px 80px 100px;
+    flex-direction: column;
+    width: 556px;
+    height: 633px;
+    gap: 40px;
+}
+
+html body div.content div.contactus div.contactus-child div.child1 div.check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 276px;
+    height: 28px;
+    gap: 35px;
+    font-size: 18px;
+    font-family: "Space Grotesk", serif;
+}
+
+html body div.content div.contactus div.contactus-child div.child1 div.check label input{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%; /* Make the checkboxes circular */
+    border: 2px solid #191A23; /* Add a border to the checkboxes */
+    appearance: none; /* Remove default checkbox styling */
+    cursor: pointer;
+    position: relative;
+    background-color: white;
+}
+
+html body div.content div.contactus div.contactus-child div.child1 div.check label input:checked {
+    background-color: white; /* Change background color when checked */
+}
+
+html body div.content div.contactus div.contactus-child div.child1 div.check label input:checked::before {
+    content: '';
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #B9FF66; /* Inner circle color */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+html body div.content div.contactus div.contactus-child div.child1 div.name{
+    width: 556px;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: "Space Grotesk", serif;
+}
+
+html body div.content div.contactus div.contactus-child div.child1 div.name input#fullname{
+    width: 556px;
+    height: 59px;
+    font-family: "Space Grotesk", serif;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+html body div.content div.contactus div.contactus-child div.child1 div.email{
+    width: 556px;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: "Space Grotesk", serif;
+}
+
+html body div.content div.contactus div.contactus-child div.child1 div.email input#email{
+    width: 556px;
+    height: 59px;
+    font-family: "Space Grotesk", serif;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+html body div.content div.contactus div.contactus-child div.child1 div.message{
+    width: 556px;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: "Space Grotesk", serif;
+}
+
+html body div.content div.contactus div.contactus-child div.child1 div.message input#message{
+    width: 556px;
+    height: 59px;
+    font-family: "Space Grotesk", serif;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+html body div.content div.contactus div.contactus-child div.child1 div button{
+    width: 556px;
+    height: 68px;
+    background-color: #191A23;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: "Space Grotesk", serif;
+}
+
+html body div.content div.contactus div.contactus-child div.child2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden; /* Hide the overflow to clip the image */
+    width: 50%; /* Ensure the container takes up 50% of the width */
+}
+
+html body div.content div.contactus div.contactus-child div.child2 img {
+    position: absolute;
+    right: -55%; /* Move the image to the left */
+    height: auto; /* Maintain aspect ratio */
+}
+
+footer {
+    background-color: #191A23; /* Dark background */
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    color: #fff; /* White text */
+    width: 1240px; /* Set the width to 1240px */
+    height: 514px; /* Set the height to 514px */
+    margin: 0 auto; /* Center the footer horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+  
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1121px;
+    height: 281px;
+    gap: 66px;
+    padding-top:50px ;
+}
+
+.footer-container .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 155px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.footer-container .nav-links {
+    height: 30px;
+    gap: 40px;
+}
+
+.footer-container .nav-links a {
+    color: white;
+}
+
+.footer-container .social-icons {
+    display: flex; /* Use flexbox to align items horizontally */
+    height: 30px;
+    width: auto;
+    gap: 20px;
+}
+
+footer div.footer-container div.middle-footer {
+    height: 185px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+footer div.footer-container div.middle-footer div.address {
+    gap: 27px;
+    width: 332px;
+    height: 185px;
+    font-family: "Space Grotesk", serif;
+    font-size: 18px;
+}
+
+footer div.footer-container div.middle-footer div.newsletter {
+    width: 634px;
+    height: 184px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292A32;
+    border-radius: 14px;
+    gap: 20px;
+    font-family: "Space Grotesk", serif;
+}
+
+.address > h4:nth-child(1) {
+    width: 126px;
+    height: 26px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: black;
+    background-color: #B9FF66;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: "Space Grotesk", serif;
+}
+
+footer div.footer-container div.middle-footer div.newsletter input {
+    width: 285px;
+    height: 67px;
+    color: white;
+    background-color: #292A32;
+    border: 1px solid #FFFFFF;
+    border-radius: 14px;
+    font-size: 18px;
+    font-family: "Space Grotesk", serif;
+}
+
+footer div.footer-container div.middle-footer div.newsletter button {
+    width: 285px;
+    height: 67px;
+    color: black;
+    background-color: #B9FF66;
+    border-radius: 14px;
+    font-size: 20px;
+    font-family: "Space Grotesk", serif;
+}
+
+.footer-bottom {
+    display: flex;
+    width: 1121px;
+    height: 78px;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid #ffffff;
+    gap: 40px;
+    font-family: "Space Grotesk", serif;
+}
+
+.footer-bottom a {
+    color: white;
+    font-size: 18px;
+    font-family: "Space Grotesk", serif;
+}
+
+@media (max-width: 1280px) {
+
+    html body div.content div.landing-page nav{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    html body div.content div.landing-page div.header{
+
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    html body div.content div.services div.boxes div.box {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    html body div.content div.landing-page div.logotypes{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .mark, .mark2, .mark3, .mark4, .mark5, .mark6 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    html body div.content div.casestudy div.table{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    html body div.content div.owp section div.contenttab{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    html body div.content div.team div.teammembers{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .frame13 {
+        width: 100%;
+        gap: 17px;
+    }
+
+    .frame13 > button {
+        height: 68px;
+    }
+
+    html body div.content div.contactus div.contactus-child{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    html body div.content div.landing-page nav{
+        gap: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    html body div.content div.landing-page nav div.frame10 ul.nav-links button{
+        width: 190px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    html body div.content div.landing-page nav div.frame10 ul.nav-links{
+        width: 100%;
+        gap: 30px;
+    }
+
+    html body div.content div.landing-page div.header{
+
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    html body div.content div.services div.boxes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    html body div.content div.ctablock{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    html body div.content div.casestudy div.table{
+        width: 100%;
+        
+    }
+
+    html body div.content div.owp section div.contenttab div.parent-tab div.tab{
+        width: 80%;
+    }
+
+    html body div.content div.owp section div.contenttab div.parent-tab.active div.child-tab p{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    html body div.content div.owp section div.contenttab div.parent-tab.active div.child-tab{
+        width: 80%;
+    }
+
+    html body div.content div.team div.teammembers{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    html body div.content div.services div.boxes div.box {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    html body div.content div.landing-page div.logotypes{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .mark, .mark2, .mark3, .mark4, .mark5, .mark6 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    html body div.content div.casestudy div.table{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    html body div.content div.owp section div.contenttab{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    html body div.content div.team div.teammembers{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .frame13 {
+        width: 100%;
+        gap: 17px;
+    }
+
+    .frame13 > button {
+        height: 68px;
+    }
+
+    html body div.content div.contactus div.contactus-child{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    html body div.content div.ttms div.carousel-container{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    html body div.content div.contactus div.contactus-child{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    html body div.content div.contactus div.contactus-child div.child1{
+        margin-left: 0px;
+    }
+
+    html body div.content footer{
+        width: 100%;
+    }
+
+    html body div.content footer div.footer-container div.header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+    }
+
+    html body div.content footer div.footer-container div.header div.nav-links{
+        width: 411px;
+    }
+
+    html body div.content footer div.footer-container div.middle-footer{
+        display: flex;
+        justify-content: center;
+    }
+
+    html body div.content footer div.footer-bottom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    html{
+        width: 100%;
+    }
+
+    .hideOnMobile {
+        display: none;
+    }
+
+    html body div.content div.landing-page nav div.frame10 ul.nav-links li a span.material-symbols-outlined{
+        display: block;
+    }
+
+    html body div.content div.landing-page nav div.frame10 ul.nav-links{
+        width: 100%;
+    }
+
+    html body div.content div.landing-page nav div.frame10 ul.sidebar{
+        right: 150px;
+        height: 100%;
+    }
+
+    html body div.content div.landing-page div.header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .landing-page{
+        height: auto;
+    }
+
+    html body div.content div.owp section div.contenttab div.parent-tab div.tab{
+        width: 80%;
+    }
+
+    html body div.content div.owp section div.contenttab div.parent-tab.active div.child-tab p{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    html body div.content div.owp section div.contenttab div.parent-tab.active div.child-tab{
+        width: 80%;
+    }
+
+    html body div.content div.landing-page div.logotypes{
+        display: flex;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        gap: 10px;
+    }
+
+    html body div.content div.casestudy div.mark2{
+        width: auto;
+        height: auto;
+    }
+
+    html body div.content div.casestudy div.mark2 > p{
+        width: 100%;
+    }
+
+    html body div.content div.casestudy div.mark2 > h2{
+        width: 60%;
+    }
+
+    html body div.content div.casestudy div.table{
+        height: auto;
+    }
+
+    html body div.content footer{
+        width: 100%;
+    }
+
+    html body div.content footer div.footer-container div.header{
+        width: 100%;
+        gap: 5px;
+    }
+
+    html body div.content footer div.footer-container div.header div.nav-links{
+        gap: 30px;
+    }
+
+    html body div.content footer div.footer-container div.middle-footer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+}
+
+@media (max-width: 640px) {
+    html{
+        width: 100%;
+    }
+
+    .hideOnMobile {
+        display: none;
+    }
+
+    html body div.content div.landing-page nav div.frame10 ul.nav-links li a span.material-symbols-outlined{
+        display: block;
+    }
+
+    html body div.content div.landing-page nav div.frame10 ul.nav-links{
+        width: 100%;
+    }
+
+    html body div.content div.landing-page nav div.frame10 ul.sidebar{
+        right: 200px;
+        height: 100%;
+    }
+
+    html body div.content div.landing-page div.header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    html body div.content div.owp section div.contenttab div.parent-tab div.tab{
+        width: 80%;
+    }
+
+    html body div.content div.owp section div.contenttab div.parent-tab.active div.child-tab p{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    html body div.content div.owp section div.contenttab div.parent-tab.active div.child-tab{
+        width: 80%;
+    }
+
+    .landing-page{
+        height: auto;
+    }
+
+    html body div.content div.landing-page div.logotypes{
+        display: flex;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: auto;
+        width: 100%;
+        gap: 0px;
+    }
+
+    html body div.content div.casestudy div.mark2{
+        width: auto;
+        height: auto;
+    }
+
+    html body div.content div.casestudy div.mark2 > p{
+        width: 100%;
+    }
+
+    html body div.content div.casestudy div.mark2 > h2{
+        width: 60%;
+    }
+
+    html body div.content div.casestudy div.table{
+        height: auto;
+    }
+
+    html body div.content footer{
+        width: 100%;
+    }
+
+    html body div.content footer div.footer-container div.header{
+        width: 100%;
+    }
+
+    html body div.content footer div.footer-container div.header div.nav-links{
+        width: 300px;
+        gap: 10px;
+    }
+
+    html body div.content footer div.footer-container div.middle-footer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    html body div.content div.casestudy div.table p{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    html body div.content div.owp div.mark3{
+        width: 100%;
+    }
+
+    html body div.content div.owp div.mark3 h2{
+        width: 60%;
+        font-size: 30px;
+    }
+
+    html body div.content div.casestudy div.mark2 h2{
+        width: 60%;
+        font-size: 30px;
+    }
+
+    html body div.content footer div.footer-container div.middle-footer div.newsletter{
+        width: 50%;
+    }
+
+
+}
+
